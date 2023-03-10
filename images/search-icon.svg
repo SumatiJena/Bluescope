@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,0 C12.418278,0 16,3.581722 16,8 C16,9.66727472 15.4899648,11.2154243 14.6174077,12.4969356 L19.7426407,17.6213203 L17.6213203,19.7426407 L12.4969356,14.6174077 C11.2154243,15.4899648 9.66727472,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 Z M8,3 C5.23857625,3 3,5.23857625 3,8 C3,10.7614237 5.23857625,13 8,13 C10.7614237,13 13,10.7614237 13,8 C13,5.23857625 10.7614237,3 8,3 Z" id="Combined-Shape" fill="#0044B4"></path>
+    </g>
+</svg>

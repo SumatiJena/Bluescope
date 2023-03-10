@@ -1,0 +1,107 @@
+$defaultFontColor: #000000;
+$bscmpMyColor:#0044b4;
+$bscmpBorderColor: rgba(0,0,0,.1);
+.bscmpnavbar_header{
+    .bscmpnavbar_header--navbartop{
+        margin-bottom: 10px;
+         li:last-child a{
+            border-left:2px solid $bscmpBorderColor
+         }
+         .nav-link{
+            padding-top: 0px;
+            padding-bottom: 4px;
+         }
+
+    }
+    .navbar-toggler {
+        color:$defaultFontColor;
+        border-color:$bscmpBorderColor
+    }
+    .navbar-light .navbar-nav .nav-link{
+        color: $defaultFontColor;
+        padding: 5px 20px;
+    }
+    .navbar-collapse{
+        flex-grow: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .bscmpnavbar_header--main{
+        display: flex;
+        font-size: 15px;
+        border-top:1.5px solid  $bscmpBorderColor ;
+    }
+    .bscmpnavbar_header--navbartop{
+        a{
+            font-size: 10px;
+        }
+    }
+    .bscmpnavbar_header--main{
+        img{
+            width: 60%;
+        }
+    }   
+    button{
+        background-color: transparent;
+    }
+}
+
+@media(max-width:600px){
+    .bscmpnavbar_header{
+        .navbar-toggler{
+            display: block;
+        }  
+        .navbar-collapse{
+            display: none;
+        }
+        .bscmpheader_navbarform--mob{
+            width: 100%;
+            margin-left: 5px;
+            position: absolute;
+            top: 105px;
+            .bscmpheader_quick--search {
+                display: flex;
+                width: 89%;
+            }
+        }
+        .collapse.show {
+            display: block;
+            background-color: white;
+            z-index: 99999;
+            position: relative;
+            top: -10px;
+        } 
+        .bscmpnavbar_header--navbartop{
+            margin-bottom: 10px;
+             li:last-child a{
+                border-left:none;
+             }
+             .nav-link{
+                padding-top: 0px;
+                padding-bottom: 4px;
+             }
+    
+        }
+    }  
+    
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .bscmpnavbar_header{
+        ul li a.nav-link {
+            color:$defaultFontColor;
+            padding: 10px 10px;
+        }
+        .navbar-nav{
+            flex-direction: row;
+        }
+        .navbar-collapse {
+            flex-basis: 77%;
+        }
+       .bscmpheader_quick--search,  .bscmpheader_navbarform--mob{
+        width: 100%;
+       }
+    }
+}
